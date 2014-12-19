@@ -1,4 +1,4 @@
 WheresWolfie
 ============
 
-HTML5 geography game making use of the Google Maps APIs and Node.js/Socket.IO.
+HTML5/Node.js/Socket.IO simple geography game.
