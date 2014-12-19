@@ -1,0 +1,50 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Where's Wolfie (Italy Edition)?</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- jQuery STYLESHEET -->
+        <link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+        <!-- jQuery API -->
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <!-- jQuery Components API -->
+        <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+        <!-- Google Maps API -->
+        <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyARamSFyZ_byj9RA38GHhny_bT-6dxFMRQ&sensor=false">
+        </script>
+        <!-- socket io -->
+        <script src='//localhost:3000/socket.io/socket.io.js'></script>
+        <!-- my stylesheet -->
+        <link rel="stylesheet" type="text/css" href="./css/WheresWolfie.css" />
+        <!-- my javascript socket io client file -->
+        <script src="./js/WheresWolfieSocketIOClient.js"></script>
+    </head>
+    <body>
+        <div id="content">
+            <div id="banner">&diams; Where's Wolfie (Italy Edition)? &diams;</div>
+            <div id="numWinsDiv"></div>
+            <div id="nameGuess">
+                <div id ="nameDiv">
+                    <div id="nameLabelDiv"><label for="playerName" id="nameLabel">Name:</label></div>
+                    <div id="nameFieldDiv"><input type="text" name="playerName" id="playerName"></div>
+                </div>
+                <div id ="guessDiv">
+                    <div id="guessLabelDiv"><label for="playerGuess" id="guessLabel">Guess:</label></div>
+                    <div id="guessFieldDiv"><input type="text" name="playerGuess" id="playerGuess"></div>
+                </div>
+            </div>
+            <div id="feedback"></div>
+            <div id="googleMap"></div>
+        </div>
+        
+        <footer id="author">&diams; By Jessica Mortellaro &diams;</footer>
+        
+        <script>
+            initGame();
+        </script>
+    </body>
+</html>

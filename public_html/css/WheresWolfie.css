@@ -1,0 +1,147 @@
+/* 
+    Document   : WheresWolfie.css
+    Created on : Sep 30, 2013, 9:20:32 PM
+    Author     : Jessica
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body
+{
+    background-color: rgb(250, 210, 212);
+}
+
+#content 
+{
+    position:absolute;
+    text-align:left;
+    left: 10px;
+    top: 10px;
+}
+
+/* Where's Wolfie? header */
+#banner
+{
+    /* style */
+    color:white;
+    background-color: rgb(167, 38, 47);
+    font-family: 'Trade Gothic';
+    font-size: 24pt;
+    font-weight: bold;
+    border: 2px solid black;
+    /* position */
+    position:absolute;
+    left: -11px;
+    top: -10px;
+    width:1346px;
+    height:50px;
+    text-align:center;
+    margin-top:0px;
+    margin-bottom:0px;
+    padding-top:3px;
+    padding-bottom:3px;
+}
+
+#numWinsDiv
+{
+    font-family: 'Trade Gothic';
+    font-size: 13pt;
+    position:relative;
+    left:1160px;
+    top:75px;
+    width:176px;
+}
+
+#nameGuess
+{
+    position:relative;
+    left:382px;
+    top:101px;
+}
+
+#nameDiv
+{
+    font-family: 'Trade Gothic';
+    font-size: 13pt;
+    float:left;
+    width:35%;
+}
+
+#nameLabelDiv
+{
+    float:left;
+    width:18%;
+}
+
+#nameFieldDiv
+{
+    float:right;
+    width:82%;
+}
+
+#playerName
+{
+    border: 1px solid black;
+}
+
+#guessDiv
+{
+    font-family: 'Trade Gothic';
+    font-size: 13pt;
+    /* make the value for this float attribute "right"
+    so that there's a space between the name field and
+    the guess label*/
+    float:right;
+    width:65%;
+}
+
+#guessLabelDiv
+{
+    float:left;
+    width:10%;
+}
+
+#guessFieldDiv
+{
+    float:right;
+    width:90%;
+}
+
+#playerGuess
+{
+    border: 1px solid black;
+}
+
+#feedback
+{
+    font-family: 'Trade Gothic';
+    font-size: 13pt;
+    position:relative;
+    left:210px;
+    top:140px;
+    text-align:center;
+}
+
+#googleMap
+{
+    border: 1px solid black;
+    position:relative;
+    width:939px;
+    height:684px;
+    left:195px;
+    top: 185px;
+}
+
+#author
+{
+    font-family: 'Trade Gothic';
+    font-size: 11pt;
+    background-color: rgb(167, 38, 47);
+    color:white;
+    border: 1px solid black;
+    position:absolute;
+    left:0px;
+    top:1147px;
+    width:1347px;
+    margin-top:-5px;
+}
